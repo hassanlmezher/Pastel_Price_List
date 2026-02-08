@@ -16,27 +16,29 @@ function App() {
   const manicureItems = useMemo<ServiceItem[]>(
     () => [
       { name: 'Russian manicure', price: '$5' },
-      { name: 'Normal color', price: '$10' },
+      { name: 'Pose', price: '$10' },
       { name: 'Rubber', price: '$15' },
       { name: 'Rubber + cover up', price: '$20' },
       { name: 'Hard gel + color', price: '$25' },
       { name: 'Rubber + gel color', price: '$20' },
+      { name: 'Refill', price: '$20-$25' },
       { name: 'Broken tip', price: '$2' },
       { name: 'Soak off', price: '$5' },
       { name: 'French', price: '$5' },
       { name: 'Full set builder gel', price: '$40' },
-      { name: 'Full set fiber', price: '$40' },
+      { name: 'Full set fiber', price: '$45' },
       { name: 'Full set gel extension', price: '$30' },
       { name: 'Massage + scrub for hands', price: '$5' },
+      { name: 'Design', price: '$5' }
     ],
     [],
   )
 
   const pedicureItems = useMemo<ServiceItem[]>(
     () => [
-      { name: 'Pedicure + polish', price: '$15' },
+      { name: 'Pedicure + pose', price: '$15' },
       { name: 'Pedicure + gel color', price: '$17' },
-      { name: 'French', price: '$20' },
+      { name: 'Pedicure + French', price: '$20' },
       { name: 'Massage + scrub', price: 'Free' },
     ],
     [],
